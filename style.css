@@ -1,0 +1,38 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(72, 99, 187);
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center; 
+    color: #fdfdfd;  
+}
+
+h2{
+    text-align: left;
+    color: #ffffff;
+      }
+
+
+
+
+/* Add a box around h1 and h2 */
+.heading-box {
+    background-color: #0e2344;  /* Box background color */
+    border-radius: 10px;  /* Rounded corners */
+    padding: 20px;  /* Space inside the box */
+    margin: 20px auto;  /* Center the box horizontally */
+    width: 80%;  /* Set a max width */
+    text-align: center;  /* Align the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add a shadow effect */
+}
+
+.heading-box h1 {
+    margin-bottom: 10px;  /* Add some space between h1 and h2 */
+}
+
+.heading-box h2 {
+    margin-top: 0;  /* Remove margin above h2 */
+}
+      
