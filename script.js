@@ -97,3 +97,5 @@ function scopeExample() {
     console.log(globalVar)
     console.log(localVar)
 }
+console.log(globalVar)
+// console.log(localVar) - variable is not accessible outside the function.
